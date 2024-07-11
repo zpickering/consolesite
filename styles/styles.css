@@ -63,6 +63,7 @@ header{
 }
 .consoleinformation section{
     text-align: center;
+    margin: 0px 25px;
 }
 ul {
     list-style: inside;
