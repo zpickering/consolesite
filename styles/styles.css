@@ -1,5 +1,5 @@
 body{
-    margin: 0 auto;
+    margin: 0 0;
     background-color: black;
 }
 
@@ -51,4 +51,37 @@ header{
 .links section a h2:hover{
     background-color: #A1EB00;
     color: black;
+}
+.consoleinformation{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.consoleinformation section img{
+    height: 250px;
+    width: 400px;
+    text-align: center;
+}
+.consoleinformation section{
+    text-align: center;
+}
+ul {
+    list-style: inside;
+    text-align: center; 
+    color: #ff6347;
+    font-size: large;
+}
+.consoleinformation section h2{
+    color: #ff6347;
+}
+.consoleinformation section p{
+    color: #ff6347;
+    font-size: large;
+}
+.consoleinformation section h3{
+    color: #ff6347;
+}
+footer{
+    background-color: #A1EB00;
+    display: flex;
+    justify-content: space-around;
 }
